@@ -2,11 +2,10 @@
 for (( i=1; i <= 10; i++))
   do
      echo $i
-     esho $i > info
-     git status
+     echo $i > info
      git add info
      git commit -m for info
      git push
-     sleep 30
+     sleep 20
   done
 echo "Finish"
