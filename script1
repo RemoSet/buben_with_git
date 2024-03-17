@@ -5,5 +5,6 @@ while [ $i -le 5 ]
   do
     echo $i
     ((i++))
+    sleep 10
   done
 echo "Finished"
